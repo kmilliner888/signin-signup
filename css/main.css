@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  
+  body {
+    font-family: Helvetica, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+  
+  ul  {
+    text-align: center;
+    padding: 0;
+  }
+  
+  ul li {
+    display: inline-block;
+  }
+  
+  ul li img {
+    width: 30px; 
+    padding: 0px 0px 10px 0px;
+  }
+  
+  form {
+    display: block;
+    padding: 5px;
+  }
+  
+  
+  /* SIGN-IN OVERLAY PANEL */
+  #signin-overlay {
+    position: absolute;
+    background-color: #9933ff;
+    display: inline-block;
+    text-align: center;
+    float: left;
+    width: 50%;
+    height: 100%;
+  }
+  
+  #signin-overlay h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 200px 0px 20px 0px;
+  }
+  
+  #signin-overlay h2 {
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 2px;
+    width: 80px;
+  }
+  
+  #signin-overlay h2 a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  #signin-overlay p {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+  }
+  
+  
+  /*SIGN-UP OVERLAY PANEL*/ 
+  #signup-overlay {
+    position: absolute;
+    background-color: #9933ff;
+    display: inline-block;
+    text-align: center;
+    float: right;
+    width: 50%;
+    height: 100%;
+  }
+  
+  #signup-overlay h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 200px 0px 20px 0px;
+  }
+  
+  #signup-overlay h2 {
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 2px;
+    width: 80px;
+  }
+  
+  #signup-overlay h2 a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  #signup-overlay p {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+  }
+  
+  /*SIGN-IN FORM PANEL*/
+  #signin-form {
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    float: left;
+    width: 50%; 
+    height: 100%;
+  }
+  
+  #signin-form h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 125px 0px 20px 0px;
+  }
+  
+  #signin-form h2 {
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 80px;
+    padding: 2px;
+  }
+  
+  #signin-form h2 a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #signin-form p {
+    font-size: 13px;
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+  }
+  
+  
+  /*SIGN-UP FORM PANEL*/
+  #signup-form {
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    float: right;
+    width: 50%;
+    height: 100%;
+  }
+  
+  #signup-form h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 125px 0px 20px 0px;
+  }
+  
+  #signup-form h2 {
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 80px;
+    padding: 2px;
+  }
+  
+  #signup-form h2 a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #signup-form p {
+    font-size: 13px;
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+  }
